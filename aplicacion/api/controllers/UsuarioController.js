@@ -60,10 +60,11 @@ module.exports = {
       })
       .exec(function (err, usuarios) {
         if (err){
-          res.redirect('https://gist.github.com/mikermcneil/5040752');
+          return res.negotiate(err);
+          res.redirect('https://www.youtube.com');
         }
         else{
-
+          res.redirect('https://www.facebook.com');
         }
       });
   },

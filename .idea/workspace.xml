@@ -4,7 +4,6 @@
     <list default="true" id="6d9f616f-aff4-4ddc-bf00-761ae8903f45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aplicacion/api/controllers/UsuarioController.js" afterPath="$PROJECT_DIR$/aplicacion/api/controllers/UsuarioController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aplicacion/views/crearusuario.ejs" afterPath="$PROJECT_DIR$/aplicacion/views/crearusuario.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aplicacion/views/homepage.ejs" afterPath="$PROJECT_DIR$/aplicacion/views/homepage.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="UsuarioController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aplicacion/api/controllers/UsuarioController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -33,8 +32,8 @@
       <file leaf-file-name="homepage.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aplicacion/views/homepage.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="20">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
               </folding>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/aplicacion/views/header.ejs" />
         <option value="$PROJECT_DIR$/aplicacion/config/routes.js" />
         <option value="$PROJECT_DIR$/aplicacion/views/crearusuario.ejs" />
-        <option value="$PROJECT_DIR$/aplicacion/views/homepage.ejs" />
         <option value="$PROJECT_DIR$/aplicacion/api/controllers/UsuarioController.js" />
+        <option value="$PROJECT_DIR$/aplicacion/views/homepage.ejs" />
       </list>
     </option>
   </component>
@@ -355,12 +354,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502757326056</updated>
       <workItem from="1502757327490" duration="2902000" />
-      <workItem from="1502764522876" duration="8267000" />
+      <workItem from="1502764522876" duration="8954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11169000" />
+    <option name="totallyTimeSpent" value="11856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -443,14 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aplicacion/views/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -499,10 +490,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aplicacion/views/homepage.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="20">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
           </folding>
@@ -511,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aplicacion/api/controllers/UsuarioController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding />
         </state>
       </provider>
