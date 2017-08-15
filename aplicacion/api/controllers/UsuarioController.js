@@ -16,15 +16,14 @@ module.exports = {
 
     return res.send("Hola");
   },
+
+
   crearUsuarioQuemado: function (req, res) {
     var parametros = req.allParams();
     sails.log.info("Parametros", parametros);
     var nuevoUsuario = {
       nombres: parametros.nombres,
-      apellidos: parametros.apellidos,
-      password: parametros.password,
-      correo: parametros.correo,
-      fechaNacimiento: parametros.fechaNacimiento
+      password: parametros.password
     };
 
     Usuario.create(nuevoUsuario)
@@ -33,7 +32,37 @@ module.exports = {
           return res.serverError(error);
         }
         else {
-          return res.redirect("/");
+          return res.redirect("https://www.youtube.com");
+
+        }
+      });
+  },
+  homepage: function (req, res) {
+    var parametros = req.allParams();
+    sails.log.info("Parametros", parametros);
+
+    //let where = {};
+    Usuario
+      .find()
+      .where({
+        and: [
+          {
+            nombres: {
+              contains: parametros.busquedanombre
+            }
+          },
+          {
+            apellidos: {
+              contains: parametros.busquedapwd
+            }
+          }
+        ]
+      })
+      .exec(function (err, usuarios) {
+        if (err){
+          res.redirect('https://gist.github.com/mikermcneil/5040752');
+        }
+        else{
 
         }
       });
@@ -48,15 +77,12 @@ module.exports = {
 
       Usuario.find({
         nombres: nombres,
-        password: password // TODO: hash the password first
+        password: password
       }).exec(function (err, user) {
-
-        if (err || !user) {
+        if (err) {
           res.send("credenciales invalidas nombre o password",500);
           // TODO: redirect, storing an error in the session
         }
-
-        // Login succeeded
         if (user) {
           req.session.authenticated = true;
           req.session.User = user;
@@ -76,4 +102,6 @@ module.exports = {
       return res.json(usersNamedFinn);
     });
   },
+
+
 };
